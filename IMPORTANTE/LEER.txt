@@ -1,0 +1,17 @@
+LA CARPETA DB_ANGULAR es la base de datos, se guarda en la "C:\xampp\mysql\data" si no esta en disco C busquen donde instalaron el xampp
+
+URL===http://localhost:9000/api/v1/angular/
+
+BODY====
+
+{
+    "nombre": "pizza especial",
+    "precio": 300.0,
+    "rubro": "comida rapida",
+    "ingrediente": [
+        "masa",
+        "tomate",
+        "jamon",
+        "queso"
+    ]
+}
